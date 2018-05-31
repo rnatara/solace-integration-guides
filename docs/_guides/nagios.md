@@ -286,7 +286,7 @@ $ ./configure
  NSCA group: nagios
 
 $ make all
-```
+```
 
 ### Post install setup
 
