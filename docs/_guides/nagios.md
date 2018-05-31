@@ -73,6 +73,12 @@ The steps for enabling Extra Packge Repositor (EPEL) are release specific and pl
 # rpm -ivh epel-release-7-5.noarch.rpm
 ```
 
+If the above fails, try the following:
+```
+wget http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+rpm -ivh epel-release-latest-7.noarch.rpm
+```
+
 #### CentOS 6.3
 
 ```
