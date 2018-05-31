@@ -40,10 +40,11 @@ These documents contain information related to the feature defined in this docum
 * The installation and setup steps also require that you have CLI access to the Solace Message Router
 * The Solace Message Router should be reachable over network from the CentOS server running Nagios
 
-#### Assumptions
+#### Tested Platforms
 
-* This document is based on SolOS version 7.1.1, though earier versions (such as SolOS 6.2) should work without any changes.
-* Setup steps in this guide were tested on CentOS 6.3 CentOS 7.0 (both 64 Bit Minimal install).  Command syntax and file locations would vary on other flavors of Linux.
+* This document is based on SolOS version 7.1.1. Latest tested SolTR version is PubSub+ 8.10 
+* Setup steps in this guide were tested on CentOS 6.3 & CentOS 7.0 Core(both 64 Bit Minimal install).  Command syntax and file locations would vary on other flavors of Linux.
+* The following Nagios servers were tested with: Nagios Core 3.5.1, 4.0.6 and 4.3.4
 
 ## Nagios Setup
 
